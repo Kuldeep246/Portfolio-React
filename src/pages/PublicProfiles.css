@@ -1,0 +1,26 @@
+.public-profiles-container {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-link {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.profile-link a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile-link img {
+    margin-bottom: 5px;
+}
