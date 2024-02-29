@@ -138,7 +138,7 @@ export const projectData = [
             title: 'Portfolio',
             description: 'Portfolio of Kuldeep Singh',
             imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-29%20180055.png?alt=media&token=d4d6d8df-d812-4eb5-9a33-f985826f65e3',
-            sourceCodeLink: 'https://github.com/Kuldeep246/DocVault',
-            liveLink: 'https://docvault-246v12uko-kuldeeps-projects-01b3ca9a.vercel.app/',
+            sourceCodeLink: 'https://github.com/Kuldeep246/Portfolio-React',
+            liveLink: 'https://main--kuldeepsingh-portfolio.netlify.app/',
         }
 ];
