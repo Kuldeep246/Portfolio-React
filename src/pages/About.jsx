@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Techcard from '../components/Techcard';
 import { GoDotFill } from "react-icons/go";
 import { data1, data2, data3, data4 } from '../utils/data';
+
+
+
 
 const About = () => {
     return (
@@ -20,10 +23,13 @@ const About = () => {
                             </p>
                             <a className='btn btn-success shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1yE1zsU6Tb-FIie4DUadLn3PN2XB4Hucx/view'> Resume</a>
                         </div>
-                        <div className='hidden md:block'>
-                            <img src='public/profile-pic-2.jpg' className='h-60 shadow-lg shadow-black rounded-lg opacity-70' alt='Profile Pic' />
+                        <div className='hidden  md:block'>
+                            <img
+                                src='https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/profile-pic-2.jpg?alt=media&token=962a1a21-69a1-45b6-8971-6bda3614dc8e'
+                                className='h-60 shadow-lg shadow-black rounded-lg opacity-70'
+                                alt='Profile Pic'
+                            />
                         </div>
-
                     </div>
                 </div>
                 <div className='p-4'>
@@ -91,5 +97,6 @@ const About = () => {
         </div>
     );
 }
+
 
 export default About;

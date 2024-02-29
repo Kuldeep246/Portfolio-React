@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className="divider divider-neutral"></div>
                 <div className='grid  lg:grid-cols-3 grid-cols-2  gap-6 p-1 overflow-hidden w-full '>
                     {projectData.map((project) => (
-                        <div className='flex rounded-lg hover:scale-105 cursor-pointer transition-transform items-center shadow-black shadow-md w-full  '>
+                        <div className='flex rounded-lg hover:scale-105  cursor-pointer transition-transform items-center shadow-black shadow-md w-full  '>
                             <Card
                                 key={project.id}
                                 title={project.title}
