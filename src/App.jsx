@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className='relative'>
-        <div className='z-10'>
+        <div className='z-50'>
           <Navbar />
         </div>
         <Routes>

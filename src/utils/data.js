@@ -97,8 +97,8 @@ export  const data4 = [
     },
     {
         imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Cloudflare_Logo.png',
-        title: 'Firebase',
-        description: 'A platform developed by Google for creating mobile and web applications.',
+        title: 'Cloudflare',
+        description: 'Provides web performance and security services for optimize and secure websites.',
     },
     {
         imgSrc: 'https://adityaj07-portfolio.vercel.app/logos/zod.svg',
