@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Background from '../components/Background';
 
 const LandingPage = () => {
     const [count, setCount] = useState(0);
