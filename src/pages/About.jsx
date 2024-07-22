@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div>
 
-            <div className='text-white lg:py-36 py-24 p-4 mx-auto  lg:w-2/3 md:w-4/5 w-full'>
+            <div className='text-white lg:py-36 py-24 p-4 mx-auto  lg:w-9/12 md:w-4/5 w-full'>
                 <div className='p-4'>
                     <div className='sm:text-3xl text-2xl font-semibold'>About me!</div>
                     <div className="divider divider-neutral"></div>
@@ -20,7 +20,7 @@ const About = () => {
                                 I am a passionate full-stack developer, enthusiastic about creating web applications and solving
                                 real-world problems through technology.
                             </p>
-                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1yE1zsU6Tb-FIie4DUadLn3PN2XB4Hucx/view'> Resume</a>
+                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/16RNKEKPHm4riTmfFzydExvBsbx5PXEhh/view'> Resume</a>
                         </div>
 
                         <motion.div
@@ -28,10 +28,10 @@ const About = () => {
                             onHoverStart={e => { }}
                             onHoverEnd={e => { }}
                         >
-                            <div className='hidden  md:block'>
+                            <div className='hidden   md:block'>
                                 <img
                                     src='https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/profile-pic-2.jpg?alt=media&token=962a1a21-69a1-45b6-8971-6bda3614dc8e'
-                                    className='h-60 shadow-lg  shadow-black rounded-lg opacity-70'
+                                    className='h-60  shadow-lg  shadow-black rounded-lg opacity-70'
                                     alt='Profile Pic'
                                 />
                             </div>

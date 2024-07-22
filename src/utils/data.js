@@ -140,5 +140,13 @@ export const projectData = [
             imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-29%20180055.png?alt=media&token=d4d6d8df-d812-4eb5-9a33-f985826f65e3',
             sourceCodeLink: 'https://github.com/Kuldeep246/Portfolio-React',
             liveLink: 'https://main--kuldeepsingh-portfolio.netlify.app/',
+        },
+        {
+            id: 5,
+            title: 'DocTalk',
+            description: 'AI-Powered PDF Q&A Web App',
+            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-07-22%20192934.png?alt=media&token=b59d80a9-5464-4daa-b419-6e3c6a481837',
+            sourceCodeLink: 'https://github.com/Kuldeep246/DocTalk',
+            liveLink: 'https://github.com/Kuldeep246/DocTalk',
         }
 ];
