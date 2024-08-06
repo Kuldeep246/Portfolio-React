@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import PublicProfiles from './pages/PublicProfiles';
 import Projects from './pages/Projects';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 function App() {
+
   return (
     <Router>
       <div className='relative'>
