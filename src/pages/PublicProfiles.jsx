@@ -46,7 +46,7 @@ const PublicProfiles = () => {
 
                      <motion.div  className="item" variants={items}></motion.div>
                     <div className='profile-link w-52 flex justify-center hover:bg-slate-700 rounded-xl '>
-                        <a href='https://www.codechef.com/users/ks7824795' target='_blank' rel='noopener noreferrer' className='hover:scale-110 transition-transform'>
+                        <a href='https://www.codechef.com/users/kuldeep_88' target='_blank' rel='noopener noreferrer' className='hover:scale-110 transition-transform'>
                             <img src='https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/icons8-codechef%20(1).svg?alt=media&token=f0ef63cf-483a-4dde-a46b-725a8aeef33d' style={{ height: '50px', }} alt='Codechef' />
                             <span className='p-2 text-lg '>Codechef</span>
                         </a>
