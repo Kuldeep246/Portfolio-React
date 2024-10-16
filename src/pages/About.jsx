@@ -20,7 +20,7 @@ const About = () => {
                                 I am a passionate full-stack developer, enthusiastic about creating web applications and solving
                                 real-world problems through technology.
                             </p>
-                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/16RNKEKPHm4riTmfFzydExvBsbx5PXEhh/view'> Resume</a>
+                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/15vyvuZrGl7yecEYtPDbGxp-axRzd-k_L/view?usp=sharing'> Resume</a>
                         </div>
 
                         <motion.div
@@ -48,27 +48,26 @@ const About = () => {
 
                         </div>
                         <div className='md:p-3 p-1'>
-                            <span className='sm:text-2xl text-xl font-mono font-semibold'> Technology</span>
-                            <div className='md:p-3 p-1 '>
-                                <div className='md:p-3 p-1'>
-                                    <span className='sm:text-2xl text-xl font-sans font-semibold'> Frontend</span>
-                                    <div className='flex flex-wrap '>
-                                        <Techcard data={data2} />
-                                    </div>
-                                </div>
-                                <div className='md:p-3 p-1'>
-                                    <span className='sm:text-2xl text-xl font-sans font-semibold'> Backend</span>
-                                    <div className='flex flex-wrap '>
-                                        <Techcard data={data3} />
-                                    </div>
-                                </div>
-                                <div className='md:p-3 p-1'>
-                                    <span className='sm:text-2xl text-xl font-sans font-semibold'> Other</span>
-                                    <div className='flex flex-wrap '>
-                                        <Techcard data={data4} />
-                                    </div>
+
+                            <div className='md:p-3 p-1'>
+                                <span className='sm:text-2xl text-xl font-sans font-semibold'> Frontend</span>
+                                <div className='flex flex-wrap '>
+                                    <Techcard data={data2} />
                                 </div>
                             </div>
+                            <div className='md:p-3 p-1'>
+                                <span className='sm:text-2xl text-xl font-sans font-semibold'> Backend</span>
+                                <div className='flex flex-wrap '>
+                                    <Techcard data={data3} />
+                                </div>
+                            </div>
+                            <div className='md:p-3 p-1'>
+                                <span className='sm:text-2xl text-xl font-sans font-semibold'> Other</span>
+                                <div className='flex flex-wrap '>
+                                    <Techcard data={data4} />
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>

@@ -1,4 +1,4 @@
-export const  data1 = [
+export const data1 = [
     {
         imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
         title: 'JavaScript',
@@ -31,7 +31,7 @@ export const  data1 = [
     },
 ];
 
-export  const data2 = [
+export const data2 = [
     {
         imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
         title: 'React',
@@ -54,7 +54,7 @@ export  const data2 = [
     },
 
 ];
-export  const data3 = [
+export const data3 = [
     {
         imgSrc: 'https://adityaj07-portfolio.vercel.app/logos/nodejs-1.svg',
         title: 'Node.js',
@@ -84,7 +84,7 @@ export  const data3 = [
 
 ];
 
-export  const data4 = [
+export const data4 = [
     {
         imgSrc: 'https://e7.pngegg.com/pngimages/237/269/png-clipart-docker-logo-docker-logo-kubernetes-software-deployment-engineer-logo-logo-area.png',
         title: 'Docker',
@@ -109,44 +109,54 @@ export  const data4 = [
 
 
 export const projectData = [
-        {
-            id: 1,
-            title: 'Codeforces Analyzer',
-            description: 'Allows user to analyze and visualize their codeforces performance',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-28%20170224.png?alt=media&token=e33349bf-052c-4ed5-b732-6bf2e5bef074',
-            sourceCodeLink: 'https://github.com/Kuldeep246/codeforces',
-            liveLink: 'https://codeforcesanalyzerproject.netlify.app/',
-        },
-        {
-            id: 2,
-            title: 'Chat App',
-            description: 'Real-Time Chat App',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-28%20165233.png?alt=media&token=49616aa0-1ff2-4491-8733-930be9bdeced',
-            sourceCodeLink: 'https://github.com/Kuldeep246/chat-app',
-            liveLink: 'https://chat-app-hise.onrender.com/',
-        },
-        {
-            id: 3,
-            title: 'DocVault',
-            description: 'Centralized and Secure Document Management System',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-21%20234635.png?alt=media&token=bd3d5334-7888-4f0e-85ab-55848ec51fe3',
-            sourceCodeLink: 'https://github.com/Kuldeep246/DocVault',
-            liveLink: 'https://docvault-246v12uko-kuldeeps-projects-01b3ca9a.vercel.app/',
-        },
-        {
-            id: 4,
-            title: 'Portfolio',
-            description: 'Portfolio of Kuldeep Singh',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-29%20180055.png?alt=media&token=d4d6d8df-d812-4eb5-9a33-f985826f65e3',
-            sourceCodeLink: 'https://github.com/Kuldeep246/Portfolio-React',
-            liveLink: 'https://main--kuldeepsingh-portfolio.netlify.app/',
-        },
-        {
-            id: 5,
-            title: 'DocTalk',
-            description: 'AI-Powered PDF Q&A Web App',
-            imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-07-22%20192934.png?alt=media&token=b59d80a9-5464-4daa-b419-6e3c6a481837',
-            sourceCodeLink: 'https://github.com/Kuldeep246/DocTalk',
-            liveLink: 'https://github.com/Kuldeep246/DocTalk',
-        }
+    {
+        id: 1,
+        title: 'MedTrack',
+        description: ' AI-driven Healthcare platform secure management and real-time access to patient medical records',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-07-22%20192934.png?alt=media&token=b59d80a9-5464-4daa-b419-6e3c6a481837',
+        sourceCodeLink: 'https://github.com/Kuldeep246/MedTrack',
+        liveLink: 'https://github.com/Kuldeep246/MedTrack',
+    },
+    {
+        id: 2,
+        title: 'Codeforces Analyzer',
+        description: 'Allows user to analyze and visualize their codeforces performance',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-28%20170224.png?alt=media&token=e33349bf-052c-4ed5-b732-6bf2e5bef074',
+        sourceCodeLink: 'https://github.com/Kuldeep246/codeforces',
+        liveLink: 'https://codeforcesanalyzerproject.netlify.app/',
+    },
+    {
+        id: 3,
+        title: 'Chat App',
+        description: 'Real-Time Chat App',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-28%20165233.png?alt=media&token=49616aa0-1ff2-4491-8733-930be9bdeced',
+        sourceCodeLink: 'https://github.com/Kuldeep246/chat-app',
+        liveLink: 'https://chat-app-hise.onrender.com/',
+    },
+    {
+        id: 4,
+        title: 'DocVault',
+        description: 'Centralized and Secure Document Management System',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-21%20234635.png?alt=media&token=bd3d5334-7888-4f0e-85ab-55848ec51fe3',
+        sourceCodeLink: 'https://github.com/Kuldeep246/DocVault',
+        liveLink: 'https://docvault-246v12uko-kuldeeps-projects-01b3ca9a.vercel.app/',
+    },
+
+    {
+        id: 5,
+        title: 'DocTalk',
+        description: 'AI-Powered PDF Q&A Web App',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-07-22%20192934.png?alt=media&token=b59d80a9-5464-4daa-b419-6e3c6a481837',
+        sourceCodeLink: 'https://github.com/Kuldeep246/DocTalk',
+        liveLink: 'https://github.com/Kuldeep246/DocTalk',
+    },
+    {
+        id: 6,
+        title: 'Portfolio',
+        description: 'Portfolio of Kuldeep Singh',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-02-29%20180055.png?alt=media&token=d4d6d8df-d812-4eb5-9a33-f985826f65e3',
+        sourceCodeLink: 'https://github.com/Kuldeep246/Portfolio-React',
+        liveLink: 'https://main--kuldeepsingh-portfolio.netlify.app/',
+    }
+
 ];

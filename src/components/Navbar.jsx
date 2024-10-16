@@ -23,7 +23,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={`fixed p-4 transform transition-transform duration-700 ease-in-out ${
+        <div className={`fixed p-4 z-10 transform transition-transform duration-700 ease-in-out ${
             isVisible
                 ? 'top-1/2 right-0 -translate-y-1/2 translate-x-0 opacity-100'
                 : isSmallScreen
@@ -33,22 +33,22 @@ const Navbar = () => {
         >
             <ul className="menu space-y-1 md:space-y-2 bg-slate-500 rounded-xl menu-horizontal sm:menu-vertical md:px-1">
                 <li>
-                    <Link to="/" className="text-black hover:scale-125 transition-transform text-xl md:text-3xl hover:text-blue-800 cursor-pointer">
+                    <Link to="/" className="text-black hover:scale-125 transition-transform text-2xl md:text-3xl hover:text-blue-800 cursor-pointer">
                         <IoMdHome />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" className="text-black hover:scale-125 transition-transform text-xl md:text-3xl hover:text-blue-800 cursor-pointer">
+                    <Link to="/about" className="text-black hover:scale-125 transition-transform text-2xl md:text-3xl hover:text-blue-800 cursor-pointer">
                         <BsPersonFill />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/projects" className="text-black hover:scale-125 transition-transform text-xl md:text-3xl hover:text-blue-800 cursor-pointer">
+                    <Link to="/projects" className="text-black hover:scale-125 transition-transform text-2xl md:text-3xl hover:text-blue-800 cursor-pointer">
                         <MdWork />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/public-profiles" className="text-black text-xl md:text-3xl hover:scale-125 transition-transform hover:text-blue-800 cursor-pointer">
+                    <Link to="/public-profiles" className="text-black text-2xl md:text-3xl hover:scale-125 transition-transform hover:text-blue-800 cursor-pointer">
                         <FaLink />
                     </Link>
                 </li>

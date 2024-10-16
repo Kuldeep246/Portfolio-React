@@ -41,9 +41,9 @@ const Projects = () => {
                     initial="hidden"
                     animate="visible"
                 >
-                    <div className='grid  lg:grid-cols-3 grid-cols-2 z-0 gap-8 sm:gap-6 p-1 overflow-hidden w-full'>
+                    <div className='grid  xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 z-0 gap-8 sm:gap-6 p-1 overflow-hidden w-full'>
                         {projectData.map((project) => (
-                            <div className='flex rounded-lg hover:scale-105 sm:scale-100 scale-90 cursor-pointer transition-transform items-center shadow-black sm:shadow-md w-11/12 '>
+                            <div className='flex rounded-lg hover:scale-105   transition-transform items-center shadow-black sm:shadow-md w-11/12 '>
                                 <motion.div  className="item" variants={items}>
                                     <Card
                                         key={project.id}

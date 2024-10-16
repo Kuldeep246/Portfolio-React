@@ -10,8 +10,8 @@ const container = {
         opacity: 1,
         scale: 1,
         transition: {
-            delay: 0.3, 
-            duration: 0.5, 
+            delay: 0.3,
+            duration: 0.5,
             delayChildren: 0.3,
             staggerChildren: 0.2
         }
@@ -34,24 +34,23 @@ const Techcard = ({ data }) => {
             initial="hidden"
             animate="visible"
         >
-            <div className="grid lg:grid-cols-2 grid-cols-1   gap-4 p-3 overflow-hidden w-full shadow-black shadow-sm">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 p-3 overflow-hidden w-full  ">
 
                 {data.map((item, index) => (
 
                     <motion.div key={index} className="item" variants={items}>
                         <div
-                            className="flex rounded-lg hover:scale-105 max-h-24 md:max-h-36 items-center cursor-pointer  shadow-black transition-transform bg-slate-800 w-full p-4 gap-4 shadow-md hover:shadow-lg"
+                            className="flex rounded-lg hover:scale-105 max-h-24 md:max-h-36 items-center cursor-pointer   transition-transform  w-full p-4 gap-4 shadow-md hover:shadow-lg"
                             key={index}
                         >
                             <img
                                 src={item.imgSrc}
                                 alt={`Card ${index}`}
-                                className="w-16 h-16 object-cover rounded-md"
+                                className="h-8 object-cover rounded-md"
                             />
-                            <div className="flex flex-col">
-                                <div className="font-bold text-lg md:text-xl mb-2 text-white">{item.title}</div>
-                                <p className="text-gray-300 text-wrap text-xs sm:text-sm md:text-base">{item.description}</p>
-                            </div>
+
+                            <div className="font-bold my-auto text md:text-xl mb-2 text-white">{item.title}</div>
+
                         </div>
                     </motion.div>
                 ))}
