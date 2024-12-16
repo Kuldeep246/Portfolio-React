@@ -20,7 +20,7 @@ const About = () => {
                                 I am a passionate full-stack developer, enthusiastic about creating web applications and solving
                                 real-world problems through technology.
                             </p>
-                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/15vyvuZrGl7yecEYtPDbGxp-axRzd-k_L/view?usp=sharing'> Resume</a>
+                            <a className='btn btn-success transition-transform hover:scale-105 shadow-xl shadow-black w-24' target="_blank" rel="noopener noreferrer" href='https://firebasestorage.googleapis.com/v0/b/docvault-cbd21.appspot.com/o/users%2Fuser_2c5by1daLFm6nf8viI0kPfxusdZ%2Ffiles%2FZ1NUEcqXSlegqAQmOD25?alt=media&token=158c941a-1b29-4aa3-a11a-5fe5c79865ae'> Resume</a>
                         </div>
 
                         <motion.div

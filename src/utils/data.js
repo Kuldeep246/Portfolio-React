@@ -113,9 +113,9 @@ export const projectData = [
         id: 1,
         title: 'MedTrack',
         description: ' AI-driven Healthcare platform secure management and real-time access to patient medical records',
-        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/phots-5cad1.appspot.com/o/Screenshot%202024-07-22%20192934.png?alt=media&token=b59d80a9-5464-4daa-b419-6e3c6a481837',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/docvault-cbd21.appspot.com/o/users%2Fuser_2c5by1daLFm6nf8viI0kPfxusdZ%2Ffiles%2FodRIV60HPSdadwAyvkYP?alt=media&token=b4ee5c41-a5cf-444c-befb-73654fd4de69',
         sourceCodeLink: 'https://github.com/Kuldeep246/MedTrack',
-        liveLink: 'https://github.com/Kuldeep246/MedTrack',
+        liveLink: 'https://med-track-xyz.vercel.app',
     },
     {
         id: 2,
